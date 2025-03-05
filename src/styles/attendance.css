@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.attendance .main{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4D4D4;
+}
+
+.attendance .main .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    justify-content: center;
+}
+
+.attendance .main .left{
+    width: 70%;
+    height: 100vh;
+    
+}
+.attendance .grid-group{
+    margin-top: 5px;
+    margin-left: 30px;
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    grid-template-columns: repeat(2, 360px);
+}
+
+.attendance .grid-group .grid{
+    background-color:#fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.attendance .grid-group .grid .grid-p p{
+    font-size: large;
+}
+
+.attendance .grid-group .grid .grid-points{
+    width: 40px;
+    height: 30px;
+    background-color:rgb(41, 196, 196);
+    color: rgb(57, 57, 252);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.attendance .main .left .table{
+    width: 100%;
+    height: 71vh;
+    background-color: #fff;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow-y: auto;
+}
+
+/* Style the table */
+.attendance #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+/* Style the table header */
+.attendance #myTable thead {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table header cells */
+.attendance #myTable th {
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    border: 1px solid #ddd;
+}
+
+/* Style the table rows */
+.attendance #myTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table cells */
+#myTable td {
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Style the table cells on hover */
+.attendance #myTable tbody tr:hover td {
+    background-color: #f5f5f5;
+}
+
+.attendance .main .right{
+    width: 40%;
+    height: 100vh;
+}
+
+.attendance .main .right .calendar{
+    width: 100%;
+    height: 26%;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.attendance .main .right h4{
+    padding: 10px
+}
+
+.attendance #myCalendar {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+/* Style the table header */
+.attendance #myCalendar thead {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table header cells */
+.attendance #myCalendar th {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+/* Style the table rows */
+.attendance #myCalendar tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table cells */
+.attendance #myCalendar td {
+    padding: 2px;
+    text-align: center;
+    font-size: x-small;
+    border: 1px solid #ddd;
+}
+
+/* Style the table cells on hover */
+.attendance #myCalendar tbody tr:hover td {
+    background-color: #f5f5f5;
+}
+
+.attendance #myCalendar tr .grey{
+    background-color: #eeecec;
+}
+
+.attendance .main .right h4{
+    padding: 10px;
+    font-size: small;
+}
+.attendance .main .right .graph{
+    width: 100%;
+    height: 21%;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    /* position: relative;
+    top:-2em */
+}
+
+.attendance .main .right .graph #Charty{
+    position: relative;
+    top: -1.5em;
+}
+
+.attendance .main .right .percentage{
+    width: 100%;
+    height: 33.5%;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.attendance .main .right .percentage #Percent{
+    position: relative;
+    top: -7em;
+}
+

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.students .main{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4D4D4;
+   
+}
+
+.students .main .top{
+    width: 100%;
+    margin: auto;
+    background-color: #D4D4D4;
+}
+ 
+.students .grid-group{
+    margin-left: 0px;
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    grid-template-columns: repeat(3, 100px); 
+    grid-template-rows: repeat(1, 70px);
+     
+}
+ 
+.students .grid-group .grid{
+    background-color:#fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+ }
+ 
+.students .grid-group .grid .grid-p p{
+    font-size: large;
+    padding-bottom: 5px;
+}
+ 
+.students .grid-group .grid .grid-points{
+   width: 40px;
+   height: 30px;
+   background-color:rgb(41, 196, 196) ;
+   color: rgb(4, 4, 158);
+   border-radius: 30px;
+   text-align: center;
+   padding-top: 10px;
+}
+ 
+.students .main .table{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.students .main .table .t-header{
+    background-color:#e7e7e7;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:30px;
+    width: 97%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+
+.students .main .t-table .flex{
+    height: 30px;
+    width: 97%;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    /* margin-right: 30px; */
+    color: black;
+}
+
+.students .page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    /* position: relative;
+    top: -40em; */
+}
+
+.students .page select{
+    width: 60px;
+    margin-left: 5px;
+    padding-left: 10px;
+    background: transparent;
+}
+
+.students .page .div{
+    display: flex;
+}
+
+.students .page .div .s-div{
+    width: 15px;
+    height: 25px;
+    background-color: #163140;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+/* .students .page button{
+    margin-top: 15px;
+    width: 15%;
+    height: 35px;
+    background: transparent;
+    border-radius: 5px;
+    border: solid rgb(177, 176, 176) 2px;
+} */

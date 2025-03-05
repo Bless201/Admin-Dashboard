@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.login .left{
+    background: #D4D4D4;
+    width: 50%;
+    height: 100vh;
+} 
+
+.login .left img{
+    position: absolute;
+    width: 386px;
+    height: 120px;
+    left: calc(50% - 386px/2 - 312px);
+    top: calc(50% - 120px/2);
+    /* margin-left: 15% */
+}
+
+.login .right{
+    background-color: #163140;
+    width: 50%;
+    height: 100vh;
+}
+
+.login .right h4{
+    text-align: center;
+    margin-top: 130px;
+    font-size:xx-large;
+    color: #fff;
+    font-weight: 100;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login .right .form{
+    width: 60%;
+    height: 65%;
+    /* text-align: center;
+    margin-top: 50px; */
+    margin-left: 20%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.login .right .form .form-group{
+    margin-bottom: 30px;
+}
+.login .right .form .form-group input{
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    background-color:#fff;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.login .right .form .form-group #email_error{
+    text-align: left;
+    margin-right: 20px;
+}
+
+.login .right .form .form-group .forget{
+    text-align: right; 
+    padding-top: 10px;
+}
+
+.login .right .form .form-group .forget a{
+    color: #ffea8c;
+    text-decoration: none;
+}
+
+.login .right .form .contain{
+    display: flex; 
+}
+
+.login .right .form .contain input{
+    width: 15px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.login .right .form .contain h5{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.login .right .form button{
+    width: 100%;
+    height: 50px;
+    background-color: #F8CC11;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+    cursor:pointer;
+    outline: none;
+}
+
+.login .right .form button a{
+    text-decoration: none;
+}
+
+
+.login .right .p{
+    text-align: center;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.login .right .p span a{
+    color: #ffea8c;;
+    text-decoration: none;
+}

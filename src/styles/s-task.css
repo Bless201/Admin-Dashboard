@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow:scroll;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.s-task .main{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4D4D4;
+}
+
+.s-task .main .top{
+    width: 97%;
+    height: 85%;
+    margin: auto;
+    /* margin-top: 45px; */
+    background-color: #fff;
+    position: relative;
+}
+
+.s-task .main .top .top-div{
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+}
+
+.s-task .main .top .left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-task .main .top .right{
+    width: 30%;
+    display: block;
+}
+
+.s-task .main .top .div{
+    margin-bottom: 20px;
+}
+
+.s-task .main .top .div h4{
+    padding-bottom: 2px;
+}
+
+.s-task .main .top .div div{
+    width: 95%;
+    height: 35px;
+    border: solid 1px #afadad;
+    border-radius: 5px;
+}
+
+.s-task .main .top .left #div-block{
+    margin-top: 10px;
+}
+
+.s-task .main .top .left #div-block div{
+    padding-bottom: 11%;
+}
+
+.s-task .main .top .right #div-flex{
+    margin-top: 35px;
+}
+
+.s-task .main .top .div input{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40%;
+    border: transparent;
+}
+
+.s-task .main .right .div{
+    position: relative;
+    top: 0.3em;
+    margin-bottom: 15px;
+}
+
+.s-task .main .right i {
+    margin-left: 50%;
+    padding-top: 7px;
+}
+
+.s-task .main .document{
+    display: flex;
+    justify-content: right;
+    margin-right: 26px;
+    position: relative;
+    top: -1.5em;
+    gap: 10px;
+}
+
+.s-task .main .document a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.s-task .page-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.s-task .page-btn button{
+    margin-top: 20px;
+    width: 14%;
+    height: 40px;
+    background: transparent;
+    color: rgb(85, 84, 84);
+    border-radius: 5px;
+    border: solid rgb(177, 176, 176) 2px; 
+    /* position:absolute;
+    top: -20em; */
+}
+
+.s-task .page-btn #yellow{
+    background-color:#F8CC11;
+    border: none;
+}
+
+.s-task .page-btn #yellow a{
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+   

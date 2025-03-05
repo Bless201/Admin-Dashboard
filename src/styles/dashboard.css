@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.admin-dashboard .main{
+    width: 100%;
+    height: 100vh;
+    background-color: #D4D4D4;
+}
+
+.admin-dashboard .main .grid-group{
+    display: grid;
+    gap: 12px;
+    max-width: 1200px;
+    grid-template-columns:repeat(3, 335px);
+    grid-template-rows: repeat(2, 90px);
+    /* background-color: #d3b012;  */
+    margin-bottom: 30px;
+}
+
+.admin-dashboard .grid-group .grid{
+    background-color:#fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80%;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+
+.admin-dashboard  .grid-group .grid .grid-p p{
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.admin-dashboard .grid-group .grid .grid-points{
+    width: 40px;
+    height: 30px;
+    background-color:rgb(41, 196, 196);
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.admin-dashboard  .grid-group .grid .grid-icon{
+    width: 40px;
+    height: 30px;
+    background-color:#8d7406;
+    color: #eec614;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.admin-dashboard .main .container {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    gap: 20px;
+}
+
+.admin-dashboard  .main .container .contain{
+    width: 67%;
+    height: 62%;
+    background-color: #fff;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    /* position: relative;
+    top: -3em; */
+}
+
+.admin-dashboard .main .container .contain .div-flex{
+    display: flex;
+    gap:10px; 
+    font-size: xx-small;
+    margin-top: 26px;
+    font-weight: 700;
+}
+
+.admin-dashboard  .main .container .contain .div-flex .flex{
+    display:flex;
+    gap: 10px;
+} 
+
+.admin-dashboard .main .container .contain .div-flex .blue{
+    width: 30px;
+    height: 13px;
+    background-color: blue;
+}
+
+.admin-dashboard .main .container .contain .div-flex .purple{
+    width: 30px;
+    height: 13px;
+    background-color:rgb(185, 7, 185);
+}
+
+.admin-dashboard .main .container .contain .div-flex .orange{
+    width: 30px;
+    height: 13px;
+    background-color: orangered;
+}
+
+.admin-dashboard  .main .container .contain .div-flex .green{
+    width: 30px;
+    height: 13px;
+    background-color: rgb(149, 212, 54);
+}
+
+.admin-dashboard .main .container .contain .div-flex .gold{
+    width: 30px;
+    height: 13px;
+    background-color:#d3b012;
+}
+
+.admin-dashboard  .main .container .div-block{
+    display:block;;
+    width: 35%;
+    height: 65%;
+    position: relative;
+    top: -0.8em;
+}
+
+.admin-dashboard .main .container .div-block .calendar{
+    background-color: #fff;
+    height: 35%;
+    margin-bottom: 33px;
+}
+ 
+.admin-dashboard .main .container .div-block .calendar .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+ 
+ .admin-dashboard .main .container .div-block .calendar .flex h4{
+    line-height:0.01;
+ }
+ 
+.admin-dashboard .main .container .div-block .calendar .flex .flex-1{
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+ 
+.admin-dashboard #myCalendar{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 10px;
+    /* margin-top: 30px; */
+}
+ 
+.admin-dashboard #myCalendar th {
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+}
+ 
+.admin-dashboard  #myCalendar td {
+    text-align: center;
+    font-size: small;
+    font-weight:bolder;
+}
+
+.admin-dashboard #myCalendar .border{
+    background-color: #163140; 
+    color: #fff; 
+   
+}
+
+.admin-dashboard  .main .container .div-block h4{
+    margin-top: 15px;
+    margin-right: 90px;
+}
+
+.admin-dashboard  .main .container .div-block .class-event{
+    background-color: #fff;
+    height: 41%;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding-left: 24px;
+}
+
+.admin-dashboard  .class-event .event{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+
+}
+
+.admin-dashboard  .class-event .event i{
+    margin-top: 25px;
+}
+
+.admin-dashboard  .event .event-p p{
+    font-size: small;
+}

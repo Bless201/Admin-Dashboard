@@ -1,0 +1,52 @@
+/* Default styles for mobile devices */
+body {
+  font-size: 14px;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-dt {
+  width: 100%;
+}
+
+.content-dt {
+  width: 100%;
+}
+
+/* Styles for tablets and larger screens */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container-fluid {
+    flex-direction: row;
+  }
+
+  .sidebar-dt {
+    width: 25%;
+  }
+
+  .content-dt {
+    width: 75%;
+  }
+}
+
+/* Styles for desktops and larger screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .sidebar-dt {
+    width: 20%;
+  }
+
+  .content-dt {
+    width: 80%;
+  }
+}
+
