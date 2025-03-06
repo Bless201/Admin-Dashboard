@@ -7,7 +7,7 @@ import Upload from './components/Upload';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Admin-Dashboard">
         <Routes>
           <Route path="/" element={<SignIn />} />
           <Route path="/dashboard/*" element={<Dashboard />} />
