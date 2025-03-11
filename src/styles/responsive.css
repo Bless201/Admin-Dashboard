@@ -31,13 +31,80 @@ body {
 .dashboard-grid,
 .students-grid {
   display: grid;
-  grid-template-columns:repeat(1, 1fr); /* Single column on mobile devices */
+  grid-template-columns:repeat(1fr); /* Single column on mobile devices */
 }
 
 .dashboard-grid,
 .students-grid {
   width: 100%;
   margin: 0 auto;
+}
+
+/* Styles for SignIn page */
+.login {
+  display: flex;
+  flex-direction: column; /* Stack elements on top of each other on mobile devices */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login .left,
+.login .right {
+  width: 100%;
+  text-align: center;
+}
+
+.login .left img {
+  width: 50%; /* Adjust image size for mobile devices */
+}
+
+.login .form {
+  width: 100%;
+}
+
+.login .form-group {
+  margin-bottom: 15px;
+}
+
+.login .form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.login .password-container {
+  position: relative;
+}
+
+.login .password-container input {
+  width: calc(100% - 30px);
+}
+
+.login .password-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login .big-green {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login .forget,
+.login .p {
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 /* Styles for tablets and larger screens */
