@@ -1,79 +1,4 @@
 /* Default styles for mobile devices */
-/* body {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-.container-fluid {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.sidebar-dt {
-  width: 25%;
-  height: auto;
-}
-
-.content-dt {
-  width: 75%;
-  height: auto;
-  
-}
-
-.content-body {
-  height: calc(100vh - 60px); 
-
-} */
-
-/* Styles for tablets and larger screens */
-/* @media (min-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-
-  .container-fluid {
-    flex-direction: row;
-  }
-
-  .sidebar-dt {
-    width: 25%;
-  }
-
-  .content-dt {
-    width: 75%;
-    height: 100vh;
-  }
-
-  .content-body {
-    height: calc(100vh - 60px); 
-  }
-} */
-
-/* Styles for desktops and larger screens */
-/* @media (min-width: 1024px) {
-  body {
-    font-size: 18px;
-  }
-
-  .sidebar-dt {
-    width: 20%;
-    height: 100vh;
-  }
-
-  .content-dt {
-    width: 80%;
-    height: 100vh;
-  }
-
-  .content-body {
-    height: calc(100vh - 60px); 
-  }
-} */
-
-/* Default styles for mobile devices */
 body {
   font-size: 14px;
   margin: 0;
@@ -83,7 +8,7 @@ body {
 
 .container-fluid {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
 }
 
@@ -95,63 +20,11 @@ body {
 .content-dt {
   width: 75%;
   height: auto;
-  overflow-y: auto;
 }
 
 .content-body {
   height: auto;
-  overflow-y: auto;
-}
-
-/* Styles for StudentsTask and Announcement components */
-.students-task .table,
-.announcement .table {
-  width: 100%;
-}
-
-.students-task .t-header,
-.students-task .t-table .flex,
-.announcement .t-header,
-.announcement .t-table .flex {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.students-task .t-header h4,
-.students-task .t-table .flex p,
-.announcement .t-header h4,
-.announcement .t-table .flex p {
-  text-align: left;
-  width: 100%;
-}
-
-.students-task .page,
-.announcement .page {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 20px;
-}
-
-.students-task .page p,
-.students-task .page button,
-.announcement .page p,
-.announcement .page button {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.students-task .page .div,
-.announcement .page .div {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.students-task .page .s-div,
-.announcement .page .s-div {
-  margin: 0 10px;
+  /*height: calc(100vh - 60px);  Adjust based on the height of the header */
 }
 
 /* Styles for tablets and larger screens */
@@ -166,7 +39,6 @@ body {
 
   .sidebar-dt {
     width: 25%;
-    height: 100vh;
   }
 
   .content-dt {
@@ -176,36 +48,6 @@ body {
 
   .content-body {
     height: calc(100vh - 60px); /* Adjust based on the height of the header */
-  }
-
-  .students-task .t-header,
-  .students-task .t-table .flex,
-  .announcement .t-header,
-  .announcement .t-table .flex {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .students-task .t-header h4,
-  .students-task .t-table .flex p,
-  .announcement .t-header h4,
-  .announcement .t-table .flex p {
-    text-align: center;
-    width: auto;
-  }
-
-  .students-task .page,
-  .announcement .page {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .students-task .page p,
-  .students-task .page button,
-  .announcement .page p,
-  .announcement .page button {
-    width: auto;
-    margin-bottom: 0;
   }
 }
 
@@ -229,3 +71,4 @@ body {
     height: calc(100vh - 60px); /* Adjust based on the height of the header */
   }
 }
+
