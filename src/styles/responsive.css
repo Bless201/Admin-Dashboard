@@ -88,12 +88,12 @@ body {
 }
 
 .sidebar-dt {
-  width: 100%;
+  width: 25%;
   height: auto;
 }
 
 .content-dt {
-  width: 100%;
+  width: 75%;
   height: auto;
   overflow-y: auto;
 }
