@@ -40,6 +40,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 /* Styles for SignIn page */
 .login {
   display: flex;
@@ -52,18 +54,16 @@ body {
 
 .login .left,
 .login .right {
-  width: 50%;
+  width: 100%;
   text-align: center;
-  height: auto;
 }
 
 .login .left img {
-  width: 20%; /* Adjust image size for mobile devices */
-  align-items: center;
+  width: 50%; /* Adjust image size for mobile devices */
 }
 
 .login .form {
-  width: 50%;
+  width: 100%;
 }
 
 .login .form-group {
