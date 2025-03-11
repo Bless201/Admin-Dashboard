@@ -52,18 +52,18 @@ body {
 
 .login .left,
 .login .right {
-  width: 100%;
+  width: 50%;
   text-align: center;
   height: auto;
 }
 
 .login .left img {
   width: 20%; /* Adjust image size for mobile devices */
-  
+  align-items: center;
 }
 
 .login .form {
-  width: 100%;
+  width: 50%;
 }
 
 .login .form-group {
