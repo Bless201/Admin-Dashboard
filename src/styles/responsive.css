@@ -30,13 +30,13 @@ body {
 /* Styles for dashboard and students components */
 .dashboard-grid{
   display: grid;
-  grid-template-columns:repeat(3, 300px);
+  grid-template-columns:repeat(3, 1fr);
   grid-template-rows: repeat(2, 90px); /* Single column on mobile devices */
   gap: 10px;
 }
 .students-grid {
   display: grid;
-  grid-template-columns:repeat(3, 300px); /* Single column on mobile devices */
+  grid-template-columns:repeat(3, 1fr); /* Single column on mobile devices */
   gap: 10px;
 }
 
