@@ -27,6 +27,22 @@ body {
   /*height: calc(100vh - 60px);  Adjust based on the height of the header */
 }
 
+/* Styles for dashboard and students components */
+.dashboard-grid,
+.students-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column on mobile devices */
+  gap: 10px;
+}
+
+.dashboard-grid-item,
+.students-grid-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
 /* Styles for tablets and larger screens */
 @media (min-width: 768px) {
   body {
