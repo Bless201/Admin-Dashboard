@@ -1,19 +1,31 @@
 /* Default styles for mobile devices */
 body {
   font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container-fluid {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .sidebar-dt {
-  width: 100%;
+  width: 25%;
+  height: auto;
 }
 
 .content-dt {
-  width: 100%;
+  width: 75%;
+  height: auto;
+  /* overflow-y: auto; */
+}
+
+.content-body {
+  height: calc(100vh - 60px); /* Adjust based on the height of the header */
+ 
 }
 
 /* Styles for tablets and larger screens */
@@ -32,6 +44,11 @@ body {
 
   .content-dt {
     width: 75%;
+    height: 100vh;
+  }
+
+  .content-body {
+    height: calc(100vh - 60px); /* Adjust based on the height of the header */
   }
 }
 
@@ -43,10 +60,16 @@ body {
 
   .sidebar-dt {
     width: 20%;
+    height: 100vh;
   }
 
   .content-dt {
     width: 80%;
+    height: 100vh;
+  }
+
+  .content-body {
+    height: calc(100vh - 60px); /* Adjust based on the height of the header */
   }
 }
 
