@@ -28,25 +28,17 @@ body {
 }
 
 /* Styles for dashboard and students components */
-.dashboard-grid{
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  grid-template-rows: repeat(2, 90px); /* Single column on mobile devices */
-  gap: 10px;
-}
+.dashboard-grid,
 .students-grid {
   display: grid;
-  grid-template-columns:repeat(3, 1fr); /* Single column on mobile devices */
-  gap: 10px;
+  grid-template-columns:repeat(1, 1fr); /* Single column on mobile devices */
 }
 
-.dashboard-grid-item,
-.students-grid-item {
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 5px;
+.dashboard-grid,
+.students-grid {
+  width: 100%;
+  margin: 0 auto;
 }
-
 
 /* Styles for tablets and larger screens */
 @media (min-width: 768px) {
