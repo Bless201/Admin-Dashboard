@@ -43,7 +43,7 @@ body {
 /* Styles for SignIn page */
 .login {
   display: flex;
-  flex-direction: row; /* Stack elements on top of each other on mobile devices */
+  flex-direction: column; /* Stack elements on top of each other on mobile devices */
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -61,7 +61,7 @@ body {
 }
 
 .login .form {
-  width: 50%;
+  width: 100%;
 }
 
 .login .form-group {
